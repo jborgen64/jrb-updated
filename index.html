@@ -14,16 +14,26 @@
 <body>
 
     <nav class="navbar navbar-expand-lg" id="navguy">
-        <a class="navbar-brand navvys" href="#">Jake Borgen</a>
-      
-        <div class="collapse navbar-collapse flex-row-reverse navvys">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link navvys" href="#">about</a>
-            <a class="nav-item nav-link navvys" href="#">projects</a>
-            <a class="nav-item nav-link navvys" href="#">contact</a>
-          </div>
+        <a class="navbar-brand" id="header" href="#">Jake Borgen</a>
+    </nav>
+
+    <div class="btn-group btn-group-toggle" id="btnHolder" data-toggle="buttons">
+
+        <div>
+        <label class="btn btn-secondary navvys" id="about"> about </label>
         </div>
-      </nav>
+
+        <div>
+        <label class="btn btn-secondary navvys" id="projects"> projects </label>
+        </div>
+
+        <div>
+        <label class="btn btn-secondary navvys" id="contact"> contact </label>
+        </div>
+
+    </div>
+      
+        
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="brains.js"></script>

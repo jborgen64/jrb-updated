@@ -1,7 +1,16 @@
 #navguy {
     background-color: pink;
+    height: 200px;
+}
+
+#header {
+    color: teal;
+    font-size: 50px;
 }
 
 .navvys {
+    background-color: white;
+    border: none;
     color: teal;
+    font-size: 30px;
 }
