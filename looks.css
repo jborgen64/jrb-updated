@@ -14,3 +14,7 @@
     color: teal;
     font-size: 30px;
 }
+
+.displays {
+    display: none;
+}
