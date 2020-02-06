@@ -1,20 +1,37 @@
 #navguy {
     background-color: pink;
-    height: 200px;
+    height: 150px;
 }
 
 #header {
     color: teal;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .navvys {
-    background-color: white;
+    background-color: pink;
     border: none;
     color: teal;
     font-size: 30px;
+    margin: 5px;
 }
 
 .displays {
     display: none;
 }
+
+#btnHolder {
+    height: 80px;
+    padding: 10px;
+}
+
+#aboutPic {
+    height: 700px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+body {
+    background-image: url("marble.jpg");
+  }
