@@ -35,3 +35,18 @@
 body {
     background-image: url("marble.jpg");
   }
+
+  .projPic {
+      float: left;
+      height: 250px;
+      margin: 20px;
+  }
+
+  #projDispCont {
+      height: 600px;
+  }
+
+  .contLink {
+      font-size: 25px;
+      clear: right;
+  }
