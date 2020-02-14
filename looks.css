@@ -8,6 +8,12 @@
     font-size: 80px;
 }
 
+#resume {
+    float: right;
+    font-size: 30px;
+    color: teal;
+}
+
 .navvys {
     background-color: pink;
     border: none;
