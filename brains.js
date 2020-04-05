@@ -16,3 +16,4 @@ $("#contact").on("click", function() {
     $("#projectDisp").hide(1000);
     $("#contactDisp").toggle(1000);
 });
+
